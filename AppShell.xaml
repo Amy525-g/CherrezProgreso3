@@ -3,12 +3,12 @@
     x:Class="CherrezProgreso3.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:CherrezProgreso3"
+    xmlns:local="clr-namespace:CherrezProgreso3.Views"
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="Usuarios Random"
+        ContentTemplate="{DataTemplate local:AC_UserRandom}"
+        Route="AC_UserRandom" />
 
 </Shell>
